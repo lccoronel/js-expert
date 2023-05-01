@@ -1,0 +1,12 @@
+{
+  "name": "spies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node src/fibonacci.test.js"
+  },
+  "dependencies": {
+    "sinon": "15.0.1"
+  }
+}

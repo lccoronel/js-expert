@@ -1,0 +1,23 @@
+[
+    {
+        "id": "5235b3b8-9bf6-45ea-90f0-e959d857b34a",
+        "name": "Charger",
+        "releaseYear": 2023,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "3ed6b922-21ff-4634-a720-17d95a4d89d6",
+        "name": "Alpine",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "2fac73dc-4db4-4b20-a850-f9dc2be7ea9c",
+        "name": "CX-9",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    }
+]

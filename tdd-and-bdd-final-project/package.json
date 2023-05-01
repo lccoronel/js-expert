@@ -1,0 +1,19 @@
+{
+  "name": "tdd-and-bdd-final-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "seed": "node ./seed",
+    "test": "npx mocha -w --parallel **/**/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel **/**/*.test.js"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "chai": "4",
+    "faker": "^6.6.6",
+    "mocha": "8",
+    "nyc": "15",
+    "sinon": "9"
+  }
+}

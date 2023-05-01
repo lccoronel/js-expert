@@ -1,0 +1,1 @@
+{"processes":{"7085a4d0-0fa8-4821-a7bc-2d8b9177dffc":{"parent":"8309bc3d-04b0-4071-acfa-9ca76127c1d8","children":[]},"8309bc3d-04b0-4071-acfa-9ca76127c1d8":{"parent":null,"children":["7085a4d0-0fa8-4821-a7bc-2d8b9177dffc"]}},"files":{"/Users/lucascoronel/Documents/js-expert/coverage/src/api.js":["7085a4d0-0fa8-4821-a7bc-2d8b9177dffc"]},"externalIds":{}}
