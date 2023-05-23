@@ -4,8 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "node src/api.js",
     "seed": "node ./seed",
-    "test": "npx mocha -w --parallel **/**/*.test.js",
+    "test": "NODE_ENV=test npx mocha -w --parallel **/**/*.test.js",
     "test:cov": "npx nyc npx mocha --parallel **/**/*.test.js"
   },
   "devDependencies": {
@@ -15,5 +16,8 @@
     "mocha": "8",
     "nyc": "15",
     "sinon": "9"
+  },
+  "dependencies": {
+    "supertest": "^6.3.3"
   }
 }
