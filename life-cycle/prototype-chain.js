@@ -37,3 +37,14 @@ Manager.prototype.monthlyBonuses = () => "monthlyBonuses**"
 
 // podemos chamar via prototype, mas se tentar chamar diretamente da erro
 console.log(Manager.prototype.salary())
+
+// se nao chamar 0 'new', o primeiro __proto__ vai ser sempre a instancia de functions, sem herdar nossas classes
+// Para acessar as classes sem o new, pode acessar direto via prototype
+console.log("Manager.prototype.__proto__ === Supervisor.prototype", Manager.prototype.__proto__ === Supervisor.prototype);
+assert.deepStrictEqual(Manager.prototype.__proto__, Supervisor.prototype)
+console.log('------------------------');
+
+// quando chamamos com o 'new' o __proto__ recebe o prototype
+console.log("Manager.__proto__: %s,  manager.slary(): %s", new Manager().__proto__, new Manager().salary());
+console.log('Supervisor.prototype === new Manager().__proto__.__proto__)', Supervisor.prototype === new Manager().__proto__.__proto__);
+assert.deepStrictEqual(Supervisor.prototype, new Manager().__proto__.__proto__)
